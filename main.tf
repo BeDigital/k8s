@@ -1,8 +1,8 @@
 terraform {
   backend "remote" {
-    organization = "hashicorp-learn"    
+    organization = "BeDigital"
     workspaces {
-      name = "learn-terraform-pipelines-k8s"
+      name = "k8s"
     }
   }
 required_providers {
